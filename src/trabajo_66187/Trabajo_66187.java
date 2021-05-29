@@ -17,7 +17,7 @@ public class Trabajo_66187 {
     public static void main(String[] args) {
         System.out.println("----------------------TRABAJOTI--------------------");
         trabajoTI developper = new trabajoTI();
-        
+
         developper.setNombre("Emiliano");
         developper.setDescripcion("Desarrollo de aplicaciones");
         developper.setHabilidades("base de datos");
@@ -25,15 +25,14 @@ public class Trabajo_66187 {
         developper.setNivel("Jr");
 
         System.out.println(developper.toString());
-        
-        trabajoTI designer = new trabajoTI ("Alejandro","Desarrollo de aplicaciones","configuración de servidores",1,"Sr");
+
+        trabajoTI designer = new trabajoTI("Alejandro", "Desarrollo de aplicaciones", "configuración de servidores", 1, "Sr");
         System.out.println(designer.toString());
-        
-        
-        trabajoTI telecom = new trabajoTI("Maria","Desarrollo de aplicaciones","programacion web",3,"leader");
+
+        trabajoTI telecom = new trabajoTI("Maria", "Desarrollo de aplicaciones", "programacion web", 3, "leader");
         System.out.println(telecom.toString());
-        
+
         System.out.println("----------------------VIDEOCOMUNICACIÓN--------------------");
-        
-    
-}
+    }
+
+    }

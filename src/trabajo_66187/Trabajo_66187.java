@@ -34,6 +34,22 @@ public class Trabajo_66187 {
         System.out.println(telecom.toString());
 
         System.out.println("----------------------VIDEOCOMUNICACIÓN--------------------");
+        videoComunicacion zoom = new videoComunicacion();
+        
+        zoom.setNombre("Lucia");
+        zoom.setCantidadUsuarios(100);
+        zoom.setTiempo(40);
+        zoom.setNivel("libre");
+        zoom.setEstrellas(5);
+        
+        System.out.println(zoom.toString());
+        
+        videoComunicacion meet = new videoComunicacion("Julio",50,2000,"libre",3);
+        System.out.println(meet.toString());
+
+        
+        videoComunicacion ws = new videoComunicacion("Jorge",4,24000,"libre",1);
+        System.out.println(ws.toString());
     }
 
     }

@@ -26,6 +26,7 @@ public class Trabajo_66187 {
 
         System.out.println(developper.toString());
 
+
         trabajoTI designer = new trabajoTI("Alejandro", "Desarrollo de aplicaciones", "configuración de servidores", 1, "Sr");
         System.out.println(designer.toString());
 
